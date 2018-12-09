@@ -2303,7 +2303,47 @@ ModelImporter:
     9500000: //RootNode
     6000828045688606266: Camera001
     6000828045688606268: Camera002
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 23cbec7532af3bb45a28afa13cc26822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminium_01
+    second: {fileID: 2100000, guid: f2754eee7d67a3942850c0053c019320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth_029
+    second: {fileID: 2100000, guid: 7103d672c1011e947aefbb2c02816155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6728"
+    second: {fileID: 2100000, guid: 9e88476f1bd090946adf28b4c93971b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u67282"
+    second: {fileID: 2100000, guid: ceb82ea6212a2f14b95e314b9951c827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6728ooo"
+    second: {fileID: 2100000, guid: 2c39758a77daa414c822cff16de71b3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u73BB\u74832"
+    second: {fileID: 2100000, guid: be96193d89f9a2944a6c8c8c68c990c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u767D\u5899"
+    second: {fileID: 2100000, guid: c00f1b68996585a46aa9fb0fcc7219c7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -2361,7 +2401,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -2377,10 +2417,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
